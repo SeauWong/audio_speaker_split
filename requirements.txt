@@ -1,0 +1,6 @@
+pyannote.audio
+torch
+pydub
+numpy<2
+onnxruntime
+python-dotenv
