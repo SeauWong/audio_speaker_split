@@ -37,7 +37,7 @@ def diarize_and_split(input_path, output_dir):
         out_path = os.path.join(output_dir, f"{speaker}.mp3")
         speaker_audio.export(out_path, format="mp3")
         print(f"导出: {out_path}")
-    print("分离完成。请试听各音轨，判断哪一轨为男声。")
+    print("分离完成。请试听各音轨，判断发言人。")
 
 if __name__ == "__main__":
     args = parse_args()
